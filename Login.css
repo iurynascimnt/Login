@@ -1,0 +1,265 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: #272727;
+}
+
+
+/* Bloco de TEXTO */
+
+
+.box-x{
+	width: 350px;
+	padding: 40px;
+	height: 500px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background: #000000;
+	text-align: center;
+	
+}
+.log input[type = "text"],.log input[type = "pass"]{
+	border: 0;
+	background: black;
+	display: block;
+	margin: 5px auto;
+	text-align: left;
+	border: 1px solid rgb(43, 43, 43);
+	padding: 7px 10px;
+	width: 250px;
+	outline: none;
+	color: red;
+	border-radius: 25px;
+	transition: 0.25s;
+	font-family: arialblack;
+	
+
+}
+.log input[type = "text"]:focus,.log input[type = "pass"]:focus{
+	width: 270px;
+	border-color: red;
+}
+.log-in{
+	color: white;
+	font-family: arial;
+	font-size: 13px;
+	
+
+}
+.log a{
+	color: white;
+	font-size: 11px;
+	
+
+}
+
+.lg input[type="submit"]{
+	background: black;
+	display: block;
+	margin: 30px auto;
+	text-align: center;
+	border: 1px solid black;
+	padding: 15px 40px;
+	width: 270px;
+	border-radius: 40px;
+	font-family: arialblack;
+	transition: 0.25s;
+	cursor: pointer;
+	color:white;
+}
+.lg input[type = "submit"]:hover{
+	background: red;
+}
+.or{
+	color: white;
+	font-size: 13px;
+	height: 4px;
+	padding: 3px;
+	border-bottom: 1px solid white;
+	margin: 20px;
+}
+.log a {
+	color:grey;
+}
+
+.dn{
+	margin-top: 20px;
+	color: grey;
+	font-size: 14px;
+	font-family: sans-serif;
+}
+.a{
+	color: grey;
+}
+.a-a{
+	color: grey;
+	font-size: 13px;
+	margin: 5px auto;
+}
+
+.cont{
+	color: white;
+	font-size: 32px;
+	margin-bottom: 15px;
+}
+/*=================*/
+
+
+
+
+
+
+.icon1{
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background: black;
+	border: 1px solid rgb(56, 56, 56);
+	height: 17px;
+	border-radius: 40px;
+	padding: 9px;
+}
+
+
+.icon1:hover > .fb{
+	color: red;
+	width: 170px;
+	padding: 0 5px;
+}
+.icon1:hover > .icon-a{
+	color: red;
+}
+
+.icon-a{
+	color: white;
+	border-radius: 20%;
+	justify-content: left;
+	align-items: center;
+}
+.fb{
+	border: none;
+	background: none;
+	outline: none;
+	float: center;
+	padding: 0;
+	color: white;
+	transition: 1s;
+	font-size: 14px;
+	width: 150px;
+	font-family: all;
+	cursor: pointer;
+}
+
+
+
+
+/*=========================*/
+
+.icon2{
+	position: absolute;
+	top: 67.5%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background: black;
+	border: 1px solid rgb(56, 56, 56);
+	height: 17px;
+	border-radius: 40px;
+	padding: 8px;
+}
+.icon2:hover > .gg{
+
+	width: 170px;
+	padding: 0 5px;
+}
+
+.icon2:hover > .gg{
+	color: red;
+}
+.icon2:hover > .icon-b{
+	color: red;	
+}
+.icon-b{
+	color: white;
+	border-radius: 20%;
+	justify-content: left;
+	align-items: center;
+}
+.gg{
+	border: none;
+	background: none;
+	outline: none;
+	float: center;
+	padding: 0;
+	color: white;
+	transition: 0.7s;
+	font-size: 14px;
+	width: 150px;
+	font-family: all;
+	cursor: pointer;
+}
+
+
+/*==========================*/
+
+
+.icon3{
+	position: absolute;
+	top:  75%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background: black;
+	border: 1px solid rgb(56, 56, 56);
+	height: 17px;
+	border-radius: 40px;
+	padding: 8px;
+	transition: 1s;
+
+}
+.icon3:hover > .apl{
+	width: 180px;
+	
+}
+.icon3:hover{
+	background: black;
+}
+.icon3:hover > .apl{
+	color: red;
+}
+.icon3:hover > .icon-c{
+	color: red;
+}
+
+.icon-c{
+	color: white;
+
+}
+.apl{
+	color: white;
+	background: none;
+	outline: none;
+	float: center;
+	border: none;
+	width: 150px;
+	font-size: 14px;
+	font-family: all;
+	transition: 1s;
+	cursor: pointer;
+	padding: 0;
+}
+/*
+	border: none;
+	background: none;
+	outline: none;
+	float: center;
+	padding: 0;
+	color: white;
+	transition: 1s;
+	font-size: 14px;
+	width: 0px;
+	font-family: all;
+	cursor: pointer;
+
+/*========================*/
